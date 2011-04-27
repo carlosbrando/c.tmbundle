@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>enum ${1:name} { $0 };</string>
+	<string>enum ${1:name} { $2 };$0</string>
 	<key>name</key>
 	<string>Enumeration</string>
 	<key>scope</key>
-	<string>source.c++, source.objc++</string>
+	<string>source.c, source.objc, source.c++, source.objc++</string>
 	<key>tabTrigger</key>
 	<string>enum</string>
 	<key>uuid</key>
