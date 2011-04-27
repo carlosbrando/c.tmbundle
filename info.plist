@@ -21,6 +21,7 @@
 			<string>E8D80809-0CDE-4E57-AC2A-8C22DFF353EE</string>
 			<string>034C3F18-097D-4B2C-8F20-C1CA3E9573E9</string>
 			<string>093DA4F2-D97F-4309-B869-6970C090A539</string>
+			<string>A60414A3-1288-4692-9A3E-D9AF06DCAB60</string>
 		</array>
 		<key>items</key>
 		<array>
@@ -54,9 +55,11 @@
 				<key>items</key>
 				<array>
 					<string>F060AC09-C289-11D9-8CEF-000D93589AF6</string>
+					<string>578E417D-858F-41C6-9B0D-BDF177EF777D</string>
 					<string>D1F5A25E-A70F-11D9-A11A-000A95A89C98</string>
 					<string>78EF7134-0859-4475-89C3-30927865E855</string>
 					<string>------------------------------------</string>
+					<string>BFDA8556-0D5A-48FA-98D9-8F358B4FC88E</string>
 					<string>523B30D4-C28A-11D9-8CEF-000D93589AF6</string>
 					<string>1D14B92E-8819-11D9-8661-000D93589AF6</string>
 					<string>CEE5F928-47A2-4648-96F0-99FF5C2A7419</string>
@@ -103,9 +106,11 @@
 		<string>ADD104E9-830A-4AC4-AAF4-DB6D3B0B7506</string>
 		<string>BC8B81AB-5F16-11D9-B9C3-000D93589AF6</string>
 		<string>4A544FB9-9378-4E21-A5A7-1EAB4E43981F</string>
+		<string>BFDA8556-0D5A-48FA-98D9-8F358B4FC88E</string>
 		<string>D1F5A25E-A70F-11D9-A11A-000A95A89C98</string>
 		<string>78EF7134-0859-4475-89C3-30927865E855</string>
 		<string>F060AC09-C289-11D9-8CEF-000D93589AF6</string>
+		<string>578E417D-858F-41C6-9B0D-BDF177EF777D</string>
 		<string>1D14B92E-8819-11D9-8661-000D93589AF6</string>
 		<string>523B30D4-C28A-11D9-8CEF-000D93589AF6</string>
 		<string>CEE5F928-47A2-4648-96F0-99FF5C2A7419</string>
