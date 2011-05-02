@@ -9,6 +9,7 @@
 	<key>deleted</key>
 	<array>
 		<string>A468007A-1960-4E1A-9F09-81EBFE04429C</string>
+		<string>BC8B81AB-5F16-11D9-B9C3-000D93589AF6</string>
 	</array>
 	<key>description</key>
 	<string>Support for the venerable &lt;a href="http://en.wikipedia.org/wiki/C_%28programming_language%29"&gt;C programming language&lt;/a&gt; and for the leaner C++. The bundle has completion (using ⌥⎋) for the standard C functions and, in C++, STL algorithms.</string>
@@ -79,8 +80,6 @@
 					<string>E8C3B596-9045-11D9-AB38-000D93589AF6</string>
 					<string>62D59E1C-1DF1-490E-86E9-DFF8A461AD9C</string>
 					<string>986C0149-7802-4385-A237-90074D9D5ACD</string>
-					<string>------------------------------------</string>
-					<string>BC8B81AB-5F16-11D9-B9C3-000D93589AF6</string>
 					<string>4A544FB9-9378-4E21-A5A7-1EAB4E43981F</string>
 				</array>
 				<key>name</key>
@@ -104,7 +103,6 @@
 		<string>680358EA-B24B-4662-8DDA-AD42288795E4</string>
 		<string>DDE4DBA2-BB83-49B0-827B-F5C5DCE351FA</string>
 		<string>ADD104E9-830A-4AC4-AAF4-DB6D3B0B7506</string>
-		<string>BC8B81AB-5F16-11D9-B9C3-000D93589AF6</string>
 		<string>4A544FB9-9378-4E21-A5A7-1EAB4E43981F</string>
 		<string>BFDA8556-0D5A-48FA-98D9-8F358B4FC88E</string>
 		<string>D1F5A25E-A70F-11D9-A11A-000A95A89C98</string>

@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>int main(int argc, char const${TM_C_POINTER: *}argv[])
+	<string>${1:int}${1/.+/ /}main(${2:int argc, char const${TM_C_POINTER: *}argv[]})
 {
-	${0:/* code */}
-	return 0;
+	${3:${0:/* code */}
+	return 0;}
 }</string>
 	<key>name</key>
 	<string>int main(…)</string>
