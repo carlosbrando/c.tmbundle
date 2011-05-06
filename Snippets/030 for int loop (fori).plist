@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>for (size_t ${2:i} = 0; $2 &lt; ${1:count}; ${3:++$2}) {
+	<string>for (${4:size_t }${2:i} = 0; $2 &lt; ${1:count}; ${3:++$2}) {
 	${0:/* code */}
 }</string>
 	<key>name</key>
