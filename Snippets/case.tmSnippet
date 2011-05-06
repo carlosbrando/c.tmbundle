@@ -3,16 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>for (${1:${2:i} = 0}; ${3:$2 ${4:${5:&lt;} ${6:count}}}; ${7:++$2}) {
-    ${0:/* code */}
-}</string>
+	<string>case ${1:'${2:\n}'}:
+    ${3:/* code */}</string>
 	<key>name</key>
-	<string>For Loop</string>
+	<string>case</string>
 	<key>scope</key>
 	<string>source.c, source.objc, source.c++, source.objc++</string>
 	<key>tabTrigger</key>
-	<string>for</string>
+	<string>case</string>
 	<key>uuid</key>
-	<string>78EF7134-0859-4475-89C3-30927865E855</string>
+	<string>36C942EF-5DA9-4928-A997-18986BE1D9CE</string>
 </dict>
 </plist>
