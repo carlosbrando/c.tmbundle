@@ -3,17 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:int}${1/.+/ /}main(${2:int argc, char const${TM_C_POINTER: *}argv[]}) {
-	${3:${0:/* code */}
-	return 0;}
-}</string>
+	<string>union ${1:${TM_FILENAME/(.+)\..+|.*/(?1:\L$1_t:name)/}}${1/.+/ /}{
+    ${2:type} ${3:variable_name};$4
+}${5/.+/ /}${5:$1_info};</string>
 	<key>name</key>
-	<string>int main(…)</string>
+	<string>Union</string>
 	<key>scope</key>
 	<string>source.c, source.objc, source.c++, source.objc++</string>
 	<key>tabTrigger</key>
-	<string>main</string>
+	<string>union</string>
 	<key>uuid</key>
-	<string>4A544FB9-9378-4E21-A5A7-1EAB4E43981F</string>
+	<string>A0389758-B6DB-4D22-84DF-BCDC8D9524D7</string>
 </dict>
 </plist>

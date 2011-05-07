@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>for (${1:${2:i} = 0}; ${3:$2 ${4:${5:&lt;} ${6:count}}}; ${7:++$2}) {
+	<string>for (${1:${2:i} = 0};${3/.+/ /}${3:$2 ${4:${5:&lt;} ${6:count}}};${7/.+/ /}${7:++$2})${8: {
     ${0:/* code */}
-}</string>
+\}}</string>
 	<key>name</key>
 	<string>For Loop</string>
 	<key>scope</key>
