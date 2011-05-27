@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if ((${1:fp} = fopen(${2:"${3:test}"}, "${4:wb+}")) == NULL) {
+    ${5:printf("Cannot open file.\n");
+    exit(1);}
+}$0</string>
+	<key>name</key>
+	<string>File Open</string>
+	<key>scope</key>
+	<string>source.c, source.objc, source.c++, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>fopen</string>
+	<key>uuid</key>
+	<string>10287B96-789C-4D51-A3C2-7FDD28A53257</string>
+</dict>
+</plist>

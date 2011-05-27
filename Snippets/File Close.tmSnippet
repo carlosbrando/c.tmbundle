@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>fclose(${1:fp});$0</string>
+	<key>name</key>
+	<string>File Close</string>
+	<key>scope</key>
+	<string>source.c, source.objc, source.c++, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>fclose</string>
+	<key>uuid</key>
+	<string>7EA07561-C612-4B15-8F09-9F2C11F56398</string>
+</dict>
+</plist>

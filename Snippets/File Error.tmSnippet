@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if (ferror(${1:fp})) {
+    ${2:printf("An error occurred.\n");
+    fclose($1);
+    exit(1);}
+}$0</string>
+	<key>name</key>
+	<string>File Error</string>
+	<key>scope</key>
+	<string>source.c, source.objc, source.c++, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>ferror</string>
+	<key>uuid</key>
+	<string>65E6034D-BE6E-4E49-A848-70FC9E969B96</string>
+</dict>
+</plist>

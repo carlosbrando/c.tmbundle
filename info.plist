@@ -38,17 +38,14 @@
 			<string>95FCF3A0-0EF9-4BAD-9C20-78AA542CE9A4</string>
 			<string>CE283526-E31D-4C07-80B8-B8DE711ED6F7</string>
 			<string>0A89DC9A-FB73-48C7-946E-B89FE5B78B35</string>
+			<string>84F1EA92-D262-4418-92E8-7D59F7D9E2AE</string>
 			<string>------------------------------------</string>
-			<string>B10CBD5D-7298-11D9-813A-000D93589AF6</string>
-			<string>9AB31B76-7298-11D9-813A-000D93589AF6</string>
-			<string>DDE4DBA2-BB83-49B0-827B-F5C5DCE351FA</string>
-			<string>680358EA-B24B-4662-8DDA-AD42288795E4</string>
+			<string>EB092D40-3E17-48F1-9352-50F19B48A38B</string>
 			<string>------------------------------------</string>
 			<string>A295A902-ACAF-11D9-987D-000D93589AF6</string>
 			<string>5E468268-ACAF-11D9-987D-000D93589AF6</string>
 			<string>------------------------------------</string>
 			<string>5A086BE2-BCF6-11D9-82A9-000D93589AF6</string>
-			<string>FE378349-BD63-4390-9A3B-516F7FF7F413</string>
 			<string>3D221F96-F4CC-432D-9A04-F9F4DF3E0F55</string>
 			<string>------------------------------------</string>
 			<string>67FC97FB-4322-4DE9-9FB7-BB3F25291481</string>
@@ -88,6 +85,21 @@
 				<key>name</key>
 				<string>Declarations</string>
 			</dict>
+			<key>84F1EA92-D262-4418-92E8-7D59F7D9E2AE</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>10287B96-789C-4D51-A3C2-7FDD28A53257</string>
+					<string>7EA07561-C612-4B15-8F09-9F2C11F56398</string>
+					<string>B2118356-65DB-4F2F-A229-B38211D23643</string>
+					<string>65E6034D-BE6E-4E49-A848-70FC9E969B96</string>
+					<string>AC364599-482E-4787-8260-EF46D3342C82</string>
+					<string>------------------------------------</string>
+					<string>FE378349-BD63-4390-9A3B-516F7FF7F413</string>
+				</array>
+				<key>name</key>
+				<string>I/O</string>
+			</dict>
 			<key>95FCF3A0-0EF9-4BAD-9C20-78AA542CE9A4</key>
 			<dict>
 				<key>items</key>
@@ -109,6 +121,18 @@
 				</array>
 				<key>name</key>
 				<string>Variables</string>
+			</dict>
+			<key>EB092D40-3E17-48F1-9352-50F19B48A38B</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>B10CBD5D-7298-11D9-813A-000D93589AF6</string>
+					<string>9AB31B76-7298-11D9-813A-000D93589AF6</string>
+					<string>DDE4DBA2-BB83-49B0-827B-F5C5DCE351FA</string>
+					<string>680358EA-B24B-4662-8DDA-AD42288795E4</string>
+				</array>
+				<key>name</key>
+				<string>Preprocessors</string>
 			</dict>
 		</dict>
 	</dict>
@@ -137,6 +161,11 @@
 		<string>36C942EF-5DA9-4928-A997-18986BE1D9CE</string>
 		<string>F060AC09-C289-11D9-8CEF-000D93589AF6</string>
 		<string>578E417D-858F-41C6-9B0D-BDF177EF777D</string>
+		<string>10287B96-789C-4D51-A3C2-7FDD28A53257</string>
+		<string>7EA07561-C612-4B15-8F09-9F2C11F56398</string>
+		<string>B2118356-65DB-4F2F-A229-B38211D23643</string>
+		<string>65E6034D-BE6E-4E49-A848-70FC9E969B96</string>
+		<string>AC364599-482E-4787-8260-EF46D3342C82</string>
 		<string>1D14B92E-8819-11D9-8661-000D93589AF6</string>
 		<string>A0389758-B6DB-4D22-84DF-BCDC8D9524D7</string>
 		<string>523B30D4-C28A-11D9-8CEF-000D93589AF6</string>
