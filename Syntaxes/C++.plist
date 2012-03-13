@@ -19,13 +19,6 @@
 	</array>
 	<key>firstLineMatch</key>
 	<string>-\*- C\+\+ -\*-</string>
-	<key>foldingStartMarker</key>
-	<string>(?x)
-		 /\*\*(?!\*)
-		|^(?![^{]*?//|[^{]*?/\*(?!.*?\*/.*?\{)).*?\{\s*($|//|/\*(?!.*?\*/.*\S))
-	</string>
-	<key>foldingStopMarker</key>
-	<string>(?&lt;!\*)\*\*/|^\s*\}</string>
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
@@ -127,7 +120,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.parameters.c</string>
+					<string>punctuation.definition.parameters.begin.c</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -137,7 +130,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.parameters.c</string>
+					<string>punctuation.definition.parameters.end.c</string>
 				</dict>
 			</dict>
 			<key>name</key>
@@ -169,7 +162,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.parameters.c</string>
+					<string>punctuation.definition.parameters.begin.c</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -179,7 +172,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.parameters.c</string>
+					<string>punctuation.definition.parameters.end.c</string>
 				</dict>
 			</dict>
 			<key>name</key>
@@ -219,8 +212,24 @@
 		<dict>
 			<key>begin</key>
 			<string>\{</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.block.begin.c</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>\}</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.block.end.c</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>meta.block.c++</string>
 			<key>patterns</key>
@@ -275,7 +284,7 @@
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.parameters.c</string>
+							<string>punctuation.definition.parameters.begin.c</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -285,7 +294,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.parameters.c</string>
+							<string>punctuation.definition.parameters.end.c</string>
 						</dict>
 					</dict>
 					<key>name</key>
@@ -347,28 +356,36 @@
 							<string>entity.name.type.c++</string>
 						</dict>
 					</dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.control.namespace.$2</string>
+						</dict>
+					</dict>
 					<key>end</key>
 					<string>(?&lt;=\})|(?=(;|,|\(|\)|&gt;|\[|\]|=))</string>
 					<key>name</key>
-					<string>meta.namespace-block.c++</string>
+					<string>meta.namespace-block${2:+.$2}.c++</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>begin</key>
-							<string>(\{)</string>
+							<string>\{</string>
 							<key>beginCaptures</key>
 							<dict>
-								<key>1</key>
+								<key>0</key>
 								<dict>
 									<key>name</key>
 									<string>punctuation.definition.scope.c++</string>
 								</dict>
 							</dict>
 							<key>end</key>
-							<string>(\})</string>
+							<string>\}</string>
 							<key>endCaptures</key>
 							<dict>
-								<key>1</key>
+								<key>0</key>
 								<dict>
 									<key>name</key>
 									<string>punctuation.definition.scope.c++</string>
@@ -424,13 +441,13 @@
 						</dict>
 						<dict>
 							<key>begin</key>
-							<string>(\{)</string>
+							<string>\{</string>
 							<key>beginCaptures</key>
 							<dict>
-								<key>1</key>
+								<key>0</key>
 								<dict>
 									<key>name</key>
-									<string>punctuation.definition.scope.c++</string>
+									<string>punctuation.section.block.begin.c++</string>
 								</dict>
 							</dict>
 							<key>end</key>
@@ -490,8 +507,24 @@
 						<dict>
 							<key>begin</key>
 							<string>\{</string>
+							<key>beginCaptures</key>
+							<dict>
+								<key>0</key>
+								<dict>
+									<key>name</key>
+									<string>punctuation.section.block.begin.c</string>
+								</dict>
+							</dict>
 							<key>end</key>
 							<string>\}</string>
+							<key>endCaptures</key>
+							<dict>
+								<key>0</key>
+								<dict>
+									<key>name</key>
+									<string>punctuation.section.block.end.c</string>
+								</dict>
+							</dict>
 							<key>patterns</key>
 							<array>
 								<dict>
