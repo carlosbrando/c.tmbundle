@@ -4,7 +4,9 @@
 <dict>
 	<key>content</key>
 	<string>case ${1:'${2:\n}'}:
-    ${3:/* code */}</string>
+	${3:/* code */}
+	break;
+$0</string>
 	<key>name</key>
 	<string>case</string>
 	<key>scope</key>

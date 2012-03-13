@@ -6,6 +6,7 @@
 	<string>${1:int}${1/.+/ /}main(${2:int argc, char const${TM_C_POINTER: *}argv[]})
 {
 	${3:${0:/* code */}
+	
 	return 0;}
 }</string>
 	<key>name</key>

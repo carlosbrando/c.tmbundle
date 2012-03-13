@@ -4,10 +4,11 @@
 <dict>
 	<key>content</key>
 	<string>switch(${1:ch}) {
-    case ${2:'${3:\n}'}:
-        ${4:/* code */}
-    ${5:default:
-        ${6:/* code */}}
+	case ${2:'${3:\n}'}:
+		${4:/* code */}
+		break;
+	${5:default:
+		${6:/* code */}}
 }</string>
 	<key>name</key>
 	<string>Switch</string>
