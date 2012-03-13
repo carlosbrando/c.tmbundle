@@ -3,17 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:void}${1/.+/ /}${2:method_name}(${3:void})
-{
-	$0
-}</string>
-	<key>keyEquivalent</key>
-	<string>^F</string>
+	<string>else ${1: {
+	${0:/* code */}
+\}}</string>
 	<key>name</key>
-	<string>Method</string>
+	<string>Else Condition</string>
 	<key>scope</key>
 	<string>source.c, source.objc, source.c++, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>else</string>
 	<key>uuid</key>
-	<string>BFDA8556-0D5A-48FA-98D9-8F358B4FC88E</string>
+	<string>64825CD9-CD76-4DC0-A38B-8E661CDCC2BA</string>
 </dict>
 </plist>
