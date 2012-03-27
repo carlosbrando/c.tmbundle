@@ -13,6 +13,7 @@
 	    ^ (.*\*/)? \s* \} ( [^}{"']* \{ | \s* while \s* \( .* )? [;\s]* (//.*|/\*.*\*/\s*)? $
 	|   ^ \s* (public|private|protected): \s* $
 	|   ^ \s* @(public|private|protected) \s* $
+	| 	^ \s* \} .* $
 	</string>
 		<key>increaseIndentPattern</key>
 		<string>(?x)
