@@ -50,6 +50,8 @@
 			<string>------------------------------------</string>
 			<string>67FC97FB-4322-4DE9-9FB7-BB3F25291481</string>
 			<string>79DF2D2C-5089-4A5C-BCDD-78CAC7CE2A1C</string>
+			<string>73CB5A73-593F-489B-923F-4F703718283D</string>
+			<string>A5F0BA15-A173-47B4-8C3D-3C128A1316CA</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -110,6 +112,7 @@
 					<string>62D59E1C-1DF1-490E-86E9-DFF8A461AD9C</string>
 					<string>986C0149-7802-4385-A237-90074D9D5ACD</string>
 					<string>4A544FB9-9378-4E21-A5A7-1EAB4E43981F</string>
+					<string>3AE0ECD7-5D0D-4EF3-8014-68BE76F9916C</string>
 				</array>
 				<key>name</key>
 				<string>Idioms</string>
@@ -155,6 +158,8 @@
 		<string>ADD104E9-830A-4AC4-AAF4-DB6D3B0B7506</string>
 		<string>4A544FB9-9378-4E21-A5A7-1EAB4E43981F</string>
 		<string>BFDA8556-0D5A-48FA-98D9-8F358B4FC88E</string>
+		<string>DA256BEB-E822-4CA1-9FE7-FC47F7EE7005</string>
+		<string>3AE0ECD7-5D0D-4EF3-8014-68BE76F9916C</string>
 		<string>2EDC1848-3C21-4E24-B935-44935DE8D69C</string>
 		<string>D1F5A25E-A70F-11D9-A11A-000A95A89C98</string>
 		<string>78EF7134-0859-4475-89C3-30927865E855</string>
@@ -202,6 +207,10 @@
 		<string>67FC97FB-4322-4DE9-9FB7-BB3F25291481</string>
 		<string>A60414A3-1288-4692-9A3E-D9AF06DCAB60</string>
 		<string>79DF2D2C-5089-4A5C-BCDD-78CAC7CE2A1C</string>
+		<string>C7881C3D-B09F-405A-8E88-972EB244154A</string>
+		<string>4CA2F06B-4B5F-4618-BAF4-3F48AE647082</string>
+		<string>73CB5A73-593F-489B-923F-4F703718283D</string>
+		<string>A5F0BA15-A173-47B4-8C3D-3C128A1316CA</string>
 	</array>
 	<key>uuid</key>
 	<string>4675A940-6227-11D9-BFB1-000D93589AF6</string>
