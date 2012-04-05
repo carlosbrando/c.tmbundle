@@ -10,11 +10,49 @@
 		</dict>
 		<dict>
 			<key>command</key>
-			<string>moveUp:</string>
+			<string>moveToBeginningOfLine:</string>
 		</dict>
 		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>count</string>
+				<key>findInProjectIgnoreCase</key>
+				<false/>
+				<key>findString</key>
+				<string>^[ \t]+</string>
+				<key>ignoreCase</key>
+				<true/>
+				<key>regularExpression</key>
+				<true/>
+				<key>replaceAllScope</key>
+				<string>selection</string>
+				<key>wrapAround</key>
+				<false/>
+			</dict>
 			<key>command</key>
-			<string>moveToBeginningOfLine:</string>
+			<string>findWithOptions:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>count</string>
+				<key>findInProjectIgnoreCase</key>
+				<false/>
+				<key>findString</key>
+				<string>^[ \t]+</string>
+				<key>ignoreCase</key>
+				<true/>
+				<key>regularExpression</key>
+				<true/>
+				<key>replaceAllScope</key>
+				<string>selection</string>
+				<key>wrapAround</key>
+				<false/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
 		</dict>
 		<dict>
 			<key>argument</key>
@@ -24,7 +62,7 @@
 				<key>findInProjectIgnoreCase</key>
 				<false/>
 				<key>findString</key>
-				<string>\/\*|\s\*</string>
+				<string>^[ \t]+</string>
 				<key>ignoreCase</key>
 				<true/>
 				<key>regularExpression</key>
@@ -39,11 +77,29 @@
 		</dict>
 		<dict>
 			<key>command</key>
-			<string>moveLeft:</string>
+			<string>deleteBackward:</string>
 		</dict>
 		<dict>
 			<key>command</key>
-			<string>moveDown:</string>
+			<string>insertTab:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string> </string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string>*</string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string> </string>
+			<key>command</key>
+			<string>insertText:</string>
 		</dict>
 		<dict>
 			<key>argument</key>
@@ -68,39 +124,7 @@
 		</dict>
 		<dict>
 			<key>command</key>
-			<string>shiftLeft:</string>
-		</dict>
-		<dict>
-			<key>command</key>
 			<string>moveLeft:</string>
-		</dict>
-		<dict>
-			<key>argument</key>
-			<string> </string>
-			<key>command</key>
-			<string>insertText:</string>
-		</dict>
-		<dict>
-			<key>argument</key>
-			<string>*</string>
-			<key>command</key>
-			<string>insertText:</string>
-		</dict>
-		<dict>
-			<key>argument</key>
-			<string> </string>
-			<key>command</key>
-			<string>insertText:</string>
-		</dict>
-		<dict>
-			<key>command</key>
-			<string>moveLeft:</string>
-		</dict>
-		<dict>
-			<key>argument</key>
-			<string> </string>
-			<key>command</key>
-			<string>insertText:</string>
 		</dict>
 	</array>
 	<key>keyEquivalent</key>
@@ -110,6 +134,6 @@
 	<key>scope</key>
 	<string>source.c, source.c++, source.objc, source.objc++</string>
 	<key>uuid</key>
-	<string>2D634EA6-0B42-4D0E-B2BE-5575E1A3A71E</string>
+	<string>9A76E039-F886-4C6C-8063-B2F7A6173513</string>
 </dict>
 </plist>
