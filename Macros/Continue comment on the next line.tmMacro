@@ -10,15 +10,11 @@
 		</dict>
 		<dict>
 			<key>command</key>
-			<string>shiftRight:</string>
+			<string>moveToBeginningOfLine:</string>
 		</dict>
 		<dict>
 			<key>command</key>
 			<string>moveUp:</string>
-		</dict>
-		<dict>
-			<key>command</key>
-			<string>moveToBeginningOfLine:</string>
 		</dict>
 		<dict>
 			<key>argument</key>
@@ -28,7 +24,7 @@
 				<key>findInProjectIgnoreCase</key>
 				<false/>
 				<key>findString</key>
-				<string>\/\*|\s\*</string>
+				<string>\s*\/*\*</string>
 				<key>ignoreCase</key>
 				<true/>
 				<key>regularExpression</key>
@@ -45,7 +41,7 @@
 		</dict>
 		<dict>
 			<key>command</key>
-			<string>moveRight:</string>
+			<string>copy:</string>
 		</dict>
 		<dict>
 			<key>command</key>
@@ -56,10 +52,16 @@
 			<string>moveDown:</string>
 		</dict>
 		<dict>
-			<key>argument</key>
-			<string>*</string>
 			<key>command</key>
-			<string>insertText:</string>
+			<string>paste:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveLeft:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>deleteBackward:</string>
 		</dict>
 		<dict>
 			<key>argument</key>
@@ -69,7 +71,13 @@
 		</dict>
 		<dict>
 			<key>command</key>
-			<string>moveLeft:</string>
+			<string>moveRight:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string> </string>
+			<key>command</key>
+			<string>insertText:</string>
 		</dict>
 		<dict>
 			<key>argument</key>
@@ -98,12 +106,6 @@
 			<key>command</key>
 			<string>deleteBackward:</string>
 		</dict>
-		<dict>
-			<key>argument</key>
-			<string> </string>
-			<key>command</key>
-			<string>insertText:</string>
-		</dict>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^</string>
@@ -112,6 +114,6 @@
 	<key>scope</key>
 	<string>source.c, source.c++, source.objc, source.objc++</string>
 	<key>uuid</key>
-	<string>499004FB-157A-40B6-AB68-AA8A2F5DCB9D</string>
+	<string>A2EAF610-DD70-4746-961B-1DDE357D94AE</string>
 </dict>
 </plist>
