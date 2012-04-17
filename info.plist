@@ -52,7 +52,8 @@
 			<string>79DF2D2C-5089-4A5C-BCDD-78CAC7CE2A1C</string>
 			<string>73CB5A73-593F-489B-923F-4F703718283D</string>
 			<string>A5F0BA15-A173-47B4-8C3D-3C128A1316CA</string>
-			<string>DA256BEB-E822-4CA1-9FE7-FC47F7EE7005</string>
+			<string>------------------------------------</string>
+			<string>D0A0BAAA-A8D6-4737-89B7-31A96176C809</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -81,6 +82,9 @@
 					<string>36C942EF-5DA9-4928-A997-18986BE1D9CE</string>
 					<string>------------------------------------</string>
 					<string>BFDA8556-0D5A-48FA-98D9-8F358B4FC88E</string>
+					<string>DA256BEB-E822-4CA1-9FE7-FC47F7EE7005</string>
+					<string>3AE0ECD7-5D0D-4EF3-8014-68BE76F9916C</string>
+					<string>------------------------------------</string>
 					<string>523B30D4-C28A-11D9-8CEF-000D93589AF6</string>
 					<string>CEE5F928-47A2-4648-96F0-99FF5C2A7419</string>
 					<string>DD10B510-1C36-45E0-A378-527401EE55B1</string>
@@ -115,7 +119,6 @@
 					<string>62D59E1C-1DF1-490E-86E9-DFF8A461AD9C</string>
 					<string>986C0149-7802-4385-A237-90074D9D5ACD</string>
 					<string>4A544FB9-9378-4E21-A5A7-1EAB4E43981F</string>
-					<string>3AE0ECD7-5D0D-4EF3-8014-68BE76F9916C</string>
 				</array>
 				<key>name</key>
 				<string>Idioms</string>
@@ -129,6 +132,15 @@
 				</array>
 				<key>name</key>
 				<string>Variables</string>
+			</dict>
+			<key>D0A0BAAA-A8D6-4737-89B7-31A96176C809</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>F94AEA69-4CA7-4D44-90A9-17A041CD9FA8</string>
+				</array>
+				<key>name</key>
+				<string>Debug Macros</string>
 			</dict>
 			<key>EB092D40-3E17-48F1-9352-50F19B48A38B</key>
 			<dict>
@@ -171,6 +183,7 @@
 		<string>08A328B1-86A2-4BC2-96DC-4A4E74EEA571</string>
 		<string>36C942EF-5DA9-4928-A997-18986BE1D9CE</string>
 		<string>F060AC09-C289-11D9-8CEF-000D93589AF6</string>
+		<string>F94AEA69-4CA7-4D44-90A9-17A041CD9FA8</string>
 		<string>64825CD9-CD76-4DC0-A38B-8E661CDCC2BA</string>
 		<string>578E417D-858F-41C6-9B0D-BDF177EF777D</string>
 		<string>10287B96-789C-4D51-A3C2-7FDD28A53257</string>
