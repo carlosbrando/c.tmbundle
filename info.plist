@@ -54,6 +54,7 @@
 			<string>A5F0BA15-A173-47B4-8C3D-3C128A1316CA</string>
 			<string>------------------------------------</string>
 			<string>D0A0BAAA-A8D6-4737-89B7-31A96176C809</string>
+			<string>364A9189-CCE3-4453-A432-0E69811033D6</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -94,6 +95,15 @@
 				</array>
 				<key>name</key>
 				<string>Declarations</string>
+			</dict>
+			<key>364A9189-CCE3-4453-A432-0E69811033D6</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>04395D7F-23CC-4C79-A326-8904304F7E51</string>
+				</array>
+				<key>name</key>
+				<string>Tests</string>
 			</dict>
 			<key>84F1EA92-D262-4418-92E8-7D59F7D9E2AE</key>
 			<dict>
@@ -203,6 +213,7 @@
 		<string>5E468268-ACAF-11D9-987D-000D93589AF6</string>
 		<string>5A086BE2-BCF6-11D9-82A9-000D93589AF6</string>
 		<string>35CBD22B-02AA-49DC-95A4-1697464E7E1B</string>
+		<string>04395D7F-23CC-4C79-A326-8904304F7E51</string>
 		<string>FE378349-BD63-4390-9A3B-516F7FF7F413</string>
 		<string>62D59E1C-1DF1-490E-86E9-DFF8A461AD9C</string>
 		<string>C5DEE118-4C9E-4F3E-97A4-0E01A250F142</string>
