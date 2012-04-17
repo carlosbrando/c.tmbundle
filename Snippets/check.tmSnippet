@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>check(${1:validation}, "${2:Message}"${2/([^%]|%%)*(%.)?.*/(?2:, :\);)/}$3${2/([^%]|%%)*(%.)?.*/(?2:\);)/}</string>
+	<key>name</key>
+	<string>check</string>
+	<key>scope</key>
+	<string>source.c, source.objc, source.c++, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>ck</string>
+	<key>uuid</key>
+	<string>35CBD22B-02AA-49DC-95A4-1697464E7E1B</string>
+</dict>
+</plist>
