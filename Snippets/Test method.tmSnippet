@@ -3,17 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:void}${1/.+/ /}${2:method_name}(${3:void})
+	<string>char *test_${1:case_name}()
 {
 	$0
+	
+	return NULL;
 }</string>
 	<key>name</key>
-	<string>Method</string>
+	<string>Test method</string>
 	<key>scope</key>
 	<string>source.c, source.objc, source.c++, source.objc++</string>
 	<key>tabTrigger</key>
-	<string>def</string>
+	<string>deft</string>
 	<key>uuid</key>
-	<string>BFDA8556-0D5A-48FA-98D9-8F358B4FC88E</string>
+	<string>437A98C5-DFA4-4136-A460-242D87A95A17</string>
 </dict>
 </plist>
