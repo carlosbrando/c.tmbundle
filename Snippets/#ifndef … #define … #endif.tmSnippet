@@ -4,7 +4,10 @@
 <dict>
 	<key>content</key>
 	<string>#ifndef ${1/([A-Za-z0-9_]+).*/$1/}
-#define ${1:SYMBOL} ${2:value}
+#define ${1:_${TM_FILENAME/\..+$/_h/}}${2: ${3:value}}
+
+$0
+
 #endif</string>
 	<key>name</key>
 	<string>#ifndef … #define … #endif</string>
