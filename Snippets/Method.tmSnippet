@@ -7,12 +7,12 @@
 {
 	$0
 }</string>
+	<key>keyEquivalent</key>
+	<string>^F</string>
 	<key>name</key>
 	<string>Method</string>
 	<key>scope</key>
 	<string>source.c, source.objc, source.c++, source.objc++</string>
-	<key>tabTrigger</key>
-	<string>def</string>
 	<key>uuid</key>
 	<string>BFDA8556-0D5A-48FA-98D9-8F358B4FC88E</string>
 </dict>
