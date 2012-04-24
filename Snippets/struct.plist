@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>struct ${1:${TM_FILENAME/(.+)\..+|.*/(?1:\L$1_t:name)/}}${1/.+/ /}{
     ${2:type} ${3:variable_name};$4
-}${5/.+/ /}${5:$1_info};</string>
+}${5/.+/ /}${5:$1};</string>
 	<key>name</key>
 	<string>Struct</string>
 	<key>scope</key>

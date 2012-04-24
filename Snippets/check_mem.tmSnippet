@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>source.c, source.objc, source.c++, source.objc++</string>
 	<key>tabTrigger</key>
-	<string>chm</string>
+	<string>ckm</string>
 	<key>uuid</key>
 	<string>F94AEA69-4CA7-4D44-90A9-17A041CD9FA8</string>
 </dict>
