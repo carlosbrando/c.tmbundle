@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#include "minunit.h"
+#include &lt;${1:${TM_FILENAME/\_tests..+$/.h/}}&gt;
+
+$0
+
+char *all_tests()
+{
+	mu_suite_start();
+	
+	/* mu_run_test(test_operations); */
+	
+	return NULL;
+}
+
+RUN_TESTS(all_tests);</string>
+	<key>name</key>
+	<string>Create unit test</string>
+	<key>scope</key>
+	<string>source.c, source.objc, source.c++, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>ts</string>
+	<key>uuid</key>
+	<string>67692388-860B-4791-A119-8B9E4AD7E396</string>
+</dict>
+</plist>
