@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoScrollOutput</key>
+	<true/>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>/usr/local/bin/bcpp -fnc ~/.bcpp</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@b</string>
+	<key>name</key>
+	<string>Beautify</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>source.c, source.c++, source.objc, source.objc++</string>
+	<key>uuid</key>
+	<string>D798B5EF-50B9-4289-B258-00163C7E6AD5</string>
+</dict>
+</plist>
